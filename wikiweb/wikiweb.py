@@ -21,7 +21,7 @@ class WikiWeb:
         
         self.url = url
         self.page = requests.get(self.url).text
-        self.soup = BeautifulSoup(self.page, 'lxml')
+        self.soup = BeautifulSoup(self.page, 'html.parser')
                 
     
     def links(self):

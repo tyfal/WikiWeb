@@ -11,7 +11,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Click>=6.0', ]
+requirements = ['Click>=6.0','requests>=2.19.1','bs4>=0.0.1','networkx>=2.1','numpy>=1.14.0','plotly']
 
 setup_requirements = [ ]
 
@@ -49,6 +49,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/tyfal/wikiweb',
-    version='0.1.2',
+    version='0.1.6',
     zip_safe=False,
 )

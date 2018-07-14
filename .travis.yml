@@ -22,7 +22,7 @@ deploy:
   distributions: sdist bdist_wheel
   user: tyfal
   password:
-    secure: 12Thisside34!
+    secure:
   on:
     tags: true
     repo: tyfal/wikiweb
